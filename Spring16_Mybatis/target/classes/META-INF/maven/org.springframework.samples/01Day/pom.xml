@@ -75,7 +75,7 @@
 			<scope>test</scope>
 		</dependency>
 
-<!-- logback start -->
+		<!-- logback start -->
 		<dependency>
    		 	<groupId>ch.qos.logback</groupId>
     		<artifactId>logback-classic</artifactId>
@@ -86,7 +86,7 @@
     		<artifactId>jcl-over-slf4j</artifactId>
     		<version>1.7.21</version>
 		</dependency>
-<!-- logback end -->
+		<!-- logback end -->
 
 		<dependency>
 		    <groupId>org.mybatis</groupId>
@@ -117,7 +117,6 @@
 		    <artifactId>ojdbc6</artifactId>
 		    <version>11.2.0.1.0</version>
 		</dependency>
-
 
 	</dependencies>	
 	<build>
